@@ -1,0 +1,37 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button {
+    background-color: #AAA;
+    border: none;
+    padding: 10px 35px;
+    margin: 15px 0;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+}
+
+.container button:hover {
+    opacity: .7;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.texto-frase {
+    font-style: italic;
+    color: #dd7b22;
+    text-align: center;
+}
